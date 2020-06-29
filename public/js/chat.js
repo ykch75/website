@@ -1,4 +1,5 @@
-const firebaseConfig = {
+document.addEventListener('DOMContentLoaded', function(){ 
+   const firebaseConfig = {
    apiKey: "AIzaSyBS_AX_xTJxCQYLIsntlBrmVt18gD6NSGo",
    authDomain: "chan-711c9.firebaseapp.com",
    databaseURL: "https://chan-711c9.firebaseio.com",
@@ -24,7 +25,7 @@ send.addEventListener('click', function() {
    database.ref(room).push({
        name: name.value,
        message: message.value,
-       date: now.getFullYear() + '年' + now.getMonth()+1 + '月' + now.getDate() + '日' + now.getHours() + '時' + now.getMinutes() + '分'
+       date: now.getFullYear() + '年' + 1+now.getMonth() + '月' + now.getDate() + '日' + now.getHours() + '時' + now.getMinutes() + '分'
    });
    message.value="";
    name.value="";
@@ -40,3 +41,5 @@ database.ref(room).on("child_added", function(data) {
    str += '<div class="text">Contents：'+v.message+'</div><hr>';
    output.innerHTML += str;
 });
+//削除処理
+})
