@@ -19,6 +19,8 @@ const name = document.getElementById("name");
 const message = document.getElementById("message");
 const output = document.getElementById("output");
 const del = document.getElementById("del");
+const edit = document.getElementById("edit");
+const delsec = document.getElementById("delsec");
 
 //送信処理
 send.addEventListener('click', function() {
@@ -39,13 +41,31 @@ database.ref(room).on("child_added", function(data) {
    let str = "";
    str += '<div class="name"><hr>Title：'+v.name+'</div><hr>';
    str += '<div class="text">Data：'+v.date+'<hr></div>';
-   str += '<div class="text">Contents：'+v.message+'</div>';
+   str += '<div class="text">Contents：<br>'+v.message+'</div>';
    output.innerHTML += str + '<button id="edit">edit</button><button id="delsec">delete</button><hr>'
 });
+
+})
 //削除処理(全削除処理)
 del.addEventListener('click', function(){ 
    firebase.database().ref(room).remove().then(function(){
    alert('delete!please reload')
 });
+
 })
+//記事ごとの削除
+delsec.addEventListener('click', function(){ 
+   firebase.database().ref(/*該当記事のkeyを入れたい*/).remove().then(function(){
+   alert('delete!please reload')
+});
+
 })
+//記事の編集
+edit.addEventListener('click', function(){ 
+   firebase.database().ref(/*該当記事のkeyを入れたい*/).remove().then(function(){
+   alert('delete!please reload')
+});
+})
+
+
+
