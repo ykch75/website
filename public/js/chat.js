@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function(){
 firebase.initializeApp(firebaseConfig);
  
  var database = firebase.database();
-let room = "chat_room";
+let room = "blog_list";
 const send = document.getElementById("send");
 const name = document.getElementById("name");
 const message = document.getElementById("message");
