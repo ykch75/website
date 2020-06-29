@@ -16,6 +16,9 @@ for the first time for using
 * html
 * css
 * javascript
+* firebase
+* and more
+* everything
 
 ## Impression
 
