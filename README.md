@@ -7,6 +7,7 @@
 * add blog
 * ~~delete blog~~
 * ~~edit blog~~
+
 I need more time and knowledge to do them
 
 ## Challenge
