@@ -27,6 +27,7 @@ I searched the way to edit data by using realtime database but i can't search.
 Then I thought that realtime database can't edit contents.  
 I try chenging the kind of database.  
 I really enjoyed html, css and JavaScript. I  want to study more!
+I understand why we have to use .env and tried to make .env but It doesn't show up anymore when I use .env.
 
 ### Reference
 

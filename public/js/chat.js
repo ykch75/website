@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 firebase.initializeApp(firebaseConfig);
  
- var database = firebase.database();
+var database = firebase.database();
 let room = "blog_list";
 const send = document.getElementById("send");
 const name = document.getElementById("name");
