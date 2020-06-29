@@ -2,11 +2,12 @@
 
 * URL:<https://chan-711c9.web.app/>
 
-## function
+## Function
 
 * add blog
 * ~~delete blog~~
 * ~~edit blog~~
+I need more time and knowledge to do them
 
 ## Challenge
 
