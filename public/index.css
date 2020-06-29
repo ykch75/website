@@ -117,3 +117,32 @@ main {
   position: relative;
   min-height: 100vh
 }
+#send{
+  background: var(--color-pastel-green);
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+  text-align: center;
+}
+#del{
+  background: var(--color-pastel-green);
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+  text-align: center;
+}
+
+#message input{
+  font-family: var(--font-sans);
+  display: block;
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  border-radius: 4px 0 0 4px;
+  box-sizing: border-box;
+  width: 300px;
+  float: left;
+}

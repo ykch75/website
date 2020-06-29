@@ -5,7 +5,7 @@
 ## Function
 
 * add blog
-* ~~delete blog~~
+* delete blog
 * ~~edit blog~~
 
 I need more time and knowledge to do them

@@ -7,12 +7,7 @@ if (document.getElementsByClassName('demo').length > 0) {
     - love drawing
     - love eating
     - if you want to know more about me
-    - please click "ABOUTME"
-    
-    - RECENT UPDATE
-    - ...
-    - ...
-    - ...`;
+    - please click "ABOUTME"`;
     var speed = 60;
   
     function typeItOut () {
