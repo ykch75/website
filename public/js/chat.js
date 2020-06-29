@@ -37,10 +37,10 @@ database.ref(room).on("child_added", function(data) {
    const v = data.val();
    const k = data.key;
    let str = "";
-   str += '<div class="name">Title：'+v.name+'</div>';
-   str += '<div class="text">Data：'+v.date+'</div>';
-   str += '<div class="text">Contents：'+v.message+'</div><hr>';
-   output.innerHTML += str;
+   str += '<div class="name"><hr>Title：'+v.name+'</div><hr>';
+   str += '<div class="text">Data：'+v.date+'<hr></div>';
+   str += '<div class="text">Contents：'+v.message+'</div>';
+   output.innerHTML += str + '<button id="edit">edit</button><button id="delsec">delete</button><hr>'
 });
 //削除処理(全削除処理)
 del.addEventListener('click', function(){ 
