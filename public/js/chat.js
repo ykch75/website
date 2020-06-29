@@ -18,7 +18,7 @@ const send = document.getElementById("send");
 const name = document.getElementById("name");
 const message = document.getElementById("message");
 const output = document.getElementById("output");
-const del = document.getElementById("del");
+// const del = document.getElementById("del");
 
 //送信処理
 send.addEventListener('click', function() {
@@ -43,9 +43,9 @@ database.ref(room).on("child_added", function(data) {
    output.innerHTML += str;
 });
 //削除処理
-del.addEventListener('click', function(){ 
-   firebase.database().ref('#').remove().then(function(){
-      alert('削除しました！')
-});
-})
+// del.addEventListener('click', function(){ 
+//    firebase.database().ref('#').remove().then(function(){
+//       alert('削除しました！')
+// });
+// })
 })

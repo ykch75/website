@@ -2,9 +2,9 @@
 if (document.getElementsByClassName('demo').length > 0) {
     var i = 0;
     var txt = `Welcome my site !
-    - My name is Yuki Irie a.k.a. 818chan
+    - My name is Yuki Irie
     - Ochanomizu univ. sophmore
-    - love painting
+    - love drawing
     - love eating
     - if you want to know more about me
     - please click "ABOUTME"
