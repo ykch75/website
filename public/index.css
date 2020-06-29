@@ -1,0 +1,92 @@
+css selectors guide: https://www.w3schools.com/cssref/css_selectors.asp
+
+@import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
+:root {
+  /* Colors */
+  --color-black: black;
+  --color-pastel-green: #86E88F;
+  
+  --d: 700ms;
+  --e: cubic-bezier(0.19, 1, 0.22, 1);
+  --font-sans: 'Rubik', sans-serif;
+  --font-serif: 'Cardo', serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font-sans);
+}
+
+a {
+	color: var(--color-black);
+	text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a:hover, .current {
+	color: var(--color-pastel-green);
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  position: relative;
+  z-index: 3;
+  padding: 10px;
+}
+
+nav {
+  padding: 10px;
+  float: right;
+}
+
+ul {
+	list-style: none;
+}
+
+nav > ul > li {
+	display: inline-block;
+	padding: 10px
+}
+
+@media all and (max-width: 600px) {
+	header {
+		margin: 10px;
+		text-align: center;
+	}
+	header > nav {
+		line-height: 1;
+    float: none;
+	}
+}
+
+footer {
+  position: relative;
+  font-size: 12px;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  font-size: 14px;
+  background-color: #f1f1f1;
+  color: #000000;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid;
+}
+
+footer a:hover {
+  border-bottom: 1px transparent;
+}
+
+main {
+  position: relative;
+  min-height: 100vh
+}
