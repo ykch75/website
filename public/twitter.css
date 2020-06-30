@@ -1,12 +1,24 @@
 .twitter-follow-button{
     text-align: center;
+    display: block;
     padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .twitter-mention-button{
     text-align: center;
+    display: block;
     padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .twitter-timeline{
     text-align: center;
+    display: block;
     padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+
 }
