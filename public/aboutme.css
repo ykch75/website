@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
+  .msr_box01 {
+    background-color: #1B73BA;
+    width: 80%;
+    object-fit: contain;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .msr_box01 a{
+    background-color: #FFFFFF;
+    border: 1px solid #B9B9B9;
+    box-sizing: border-box;
+    color:#000000;
+    display:block;
+    padding: 8px;
+    transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+  }
+  .msr_box01 img{
+    margin:0 0 5px;
+    object-fit: contain;
+
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .msr_box01 .ttl {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center 
+  }
+  .msr_box01 p {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+  .msr_box01 a:hover{
+    opacity: 0.8;
+  }
+
+
+
+.msr_list06{
+    margin:0 -10px;
+  }
+  .msr_list06 li{
+    width:33.3%;
+    padding:0 10px;
+    display:inline-block;
+    float:left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .msr_list06 li a{
+    width:100%;
+    padding:18px 0;
+    color:#fff;
+    font-size:16px;
+    background:black;
+    border:2px solid black;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position:relative;
+    -webkit-transition: 0.3s ease-out;
+    -moz-transition: 0.3s ease-out;
+    -o-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+  }
+  .msr_list06 li a::after{
+    content: '';
+    width: 6px;
+    height: 6px;
+    border: 0px;
+    border-bottom: solid 2px #fff;
+    border-right: solid 2px #fff;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    margin-left: -3px;
+    -webkit-transition: 0.3s ease-out;
+    -moz-transition: 0.3s ease-out;
+    -o-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+  }
+  .msr_list06 li a:hover{
+    background:#fff;
+    color:black;
+  }
+  .msr_list06 li a:hover::after{
+    border-bottom: solid 2px black;
+    border-right: solid 2px black;
+  }
+ 
+  .text *{
+      font-family: monospace;
+  }
+

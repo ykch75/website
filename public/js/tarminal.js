@@ -3,7 +3,7 @@ if (document.getElementsByClassName('demo').length > 0) {
     var i = 0;
     var txt = `Welcome my site !
     - My name is Yuki Irie
-    - Ochanomizu univ. sophmore
+    - Ochanomizu univ. sophomore
     - love drawing
     - love eating
     - if you want to know more about me
