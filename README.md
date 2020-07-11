@@ -34,3 +34,4 @@ I understand why we have to use .env and tried to make .env but It doesn't show 
 * <https://baystream.jp/tech_blog/article/16>
 * <https://tech-blog.rakus.co.jp/entry/20190930/firebase>
 * <https://stackoverflow.com/questions/54173476/js-file-gets-a-neterr-aborted-404-not-found>
+* <https://github.com/amiechen/codrops-scribbler>
